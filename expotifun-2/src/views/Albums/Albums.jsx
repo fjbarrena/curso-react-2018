@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AlbumService from '../../api/AlbumService';
+import {DataTable, Column} from 'primereact/datatable';
 
 class AlbumsView extends Component {
     constructor(props) {
@@ -25,14 +26,14 @@ class AlbumsView extends Component {
     }
 
     loadAlbumData = (album) => {
-        console.log("loadAlbumData");
-        console.log(album);
         const service = new AlbumService();
 
         service.getSongsOfAlbum(album.id).then(
             (canciones) => {
+                console.log(canciones);
+
                 this.setState({
-                    songs: canciones.data,
+                    songs: canciones.data[0].songs,
                     selectedAlbum: album
                 })
             }
@@ -57,6 +58,12 @@ class AlbumsView extends Component {
 
                 <div id="listaCanciones" className="row">
                     Album seleccionado {this.state.selectedAlbum.title}
+                    
+                    <DataTable value={this.state.songs}>
+                        <Column field="name" header="Nombre" />
+                        <Column field="duration" header="Duración" />
+                        <Column field="popularity" header="Pop" />
+                    </DataTable>
                 </div>
             </div>
         );
