@@ -1,0 +1,22 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Francisco Javier Barrena",
+        "email": "fjbarrena@iti.es",
+        "password": "n0tiene"
+      },
+      {
+        "id": 2,
+        "name": "Jose Luna",
+        "email": "han_solo@gmail.com",
+        "password": "n0tiene"
+      },
+      {
+        "id": 3,
+        "name": "Juan Velasco",
+        "email": "karatekid@gmail.com",
+        "password": "n0tiene"
+      }
+    ]
+  }
