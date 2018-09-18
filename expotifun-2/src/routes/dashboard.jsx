@@ -7,6 +7,7 @@ import Maps from "../views/Maps/Maps";
 import Notifications from "../views/Notifications/Notifications";
 import Upgrade from "../views/Upgrade/Upgrade";
 import ExpotifunDashboard from "../views/ExpotifunDashboard/ExpotifunDashboardView";
+import AlbumsView from "../views/Albums/Albums";
 
 const dashboardRoutes = [
   {
@@ -40,7 +41,7 @@ const dashboardRoutes = [
     component: Typography
   },
   { path: "/icons", name: "Playlist", icon: "pe-7s-science", component: Icons },
-  { path: "/maps", name: "Álbumes", icon: "pe-7s-map-marker", component: Maps },
+  { path: "/maps", name: "Álbumes", icon: "pe-7s-map-marker", component: AlbumsView },
   {
     path: "/notifications",
     name: "Aplicaciones",
