@@ -11,6 +11,8 @@ import "./assets/sass/light-bootstrap-dashboard.css?v=1.2.0";
 import "./assets/css/demo.css";
 import "./assets/css/pe-icon-7-stroke.css";
 
+const axios = require('axios');
+
 ReactDOM.render(
   <HashRouter>
     <Switch>
