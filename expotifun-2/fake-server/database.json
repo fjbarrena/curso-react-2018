@@ -1,111 +1,529 @@
 {
-    "recommendations": [
-      { "id": 1, "title": "AC/DC - Razors Edge", "coverImageUrl": "https://pre00.deviantart.net/dd35/th/pre/i/2013/351/2/b/ac_dc_thunderstruck_album_reimagined_by_jerle73-d6yb5kr.jpg" },
-      { "id": 2, "title": "Daze of Dawn - Yeti Nation", "coverImageUrl": "https://f4.bcbits.com/img/a0165912094_10.jpg" },
-      { "id": 3, "title": "Daze of Dawn - Sofa King Cool", "coverImageUrl": "https://gp1.wac.edgecastcdn.net/802892/http_public_production/photos/images/12959246/original/resize:600x601/crop:x0y110w772h578/aspect:1.0/hash:1463890374/1360593809_SOFA_KING_COOL_albumcover_scr.jpg" },
-      { "id": 4, "title": "Guns N' Roses - Chinese Democracy", "coverImageUrl": "https://i.ebayimg.com/images/i/222640073527-0-1/s-l1000.jpg" },
-      { "id": 5, "title": "Avenged Sevenfolds - Nightmare", "coverImageUrl": "https://lastfm-img2.akamaized.net/i/u/770x0/bd12ddaafc7344d3bf43f963f814cc90.jpg" },
-      { "id": 6, "title": "Queen - Jazz", "coverImageUrl": "https://img.discogs.com/odXD-TEck6eotpKldAQec63UwcM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-613036-1362043328-6028.jpeg.jpg" }
-    ],
-    "explore": [
-      { "id": 1, "genre": "Metal", "backgroundColor": "#f8671a" },
-      { "id": 2, "genre": "Rock", "backgroundColor": "#ddd" },
-      { "id": 3, "genre": "Indie", "backgroundColor": "#fff" },
-      { "id": 4, "genre": "Popular", "backgroundColor": "#555" },
-      { "id": 5, "genre": "Exclusivas", "backgroundColor": "#aaa" },
-      { "id": 6, "genre": "Folk", "backgroundColor": "#d2d2d2" }
-    ],
-    "album": [
-        { "id": 1, "title": "Razors Edge", "coverImageUrl": "https://pre00.deviantart.net/dd35/th/pre/i/2013/351/2/b/ac_dc_thunderstruck_album_reimagined_by_jerle73-d6yb5kr.jpg", "artist": "AC/DC" },
-        { "id": 2, "title": "Daze of Dawn - Yeti Nation", "coverImageUrl": "https://f4.bcbits.com/img/a0165912094_10.jpg", "artist": "Daze of Down" },
-        { "id": 3, "title": "Daze of Dawn - Sofa King Cool", "coverImageUrl": "https://gp1.wac.edgecastcdn.net/802892/http_public_production/photos/images/12959246/original/resize:600x601/crop:x0y110w772h578/aspect:1.0/hash:1463890374/1360593809_SOFA_KING_COOL_albumcover_scr.jpg","artist": "Daze of Dawn" },
-        { "id": 4, "title": "Guns N' Roses - Chinese Democracy", "coverImageUrl": "https://i.ebayimg.com/images/i/222640073527-0-1/s-l1000.jpg", "artist": "Guns N' Roses" },
-        { "id": 5, "title": "Avenged Sevenfolds - Nightmare", "coverImageUrl": "https://lastfm-img2.akamaized.net/i/u/770x0/bd12ddaafc7344d3bf43f963f814cc90.jpg", "artist": "Avenged Sevenfolds" },
-        { "id": 6, "title": "Queen - Jazz", "coverImageUrl": "https://img.discogs.com/odXD-TEck6eotpKldAQec63UwcM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-613036-1362043328-6028.jpeg.jpg", "artist": "Queen" }
-    ],
-    "songs": [
-        { "id": 1, "albumId": 1, "songs": [
-            { "name": "Thunderstruck",                          "duration": "04:52", "popularity": 100 },
-            { "name": "Fire Your Guns",                         "duration": "02:53", "popularity": 80 },
-            { "name": "Moneytalks",                             "duration": "03:45", "popularity": 85 },
-            { "name": "The Razors Edge",                        "duration": "04:22", "popularity": 78 },
-            { "name": "Mistress for Christmas",                 "duration": "03:53", "popularity": 66 },
-            { "name": "Rock your Heart Out",                    "duration": "04:06", "popularity": 77 },
-            { "name": "Are You Ready",                          "duration": "04:10", "popularity": 90 },
-            { "name": "Got you by the Balls",                   "duration": "04:30", "popularity": 85 },
-            { "name": "Shot of Love",                           "duration": "03:56", "popularity": 80 },
-            { "name": "Let's Make It",                          "duration": "03:32", "popularity": 50 },
-            { "name": "Goodbye and Good Riddance to Bad Luck",  "duration": "03:13", "popularity": 55 },
-            { "name": "If You Dare",                            "duration": "03:18", "popularity": 60 }
-        ]},
-        { "id": 2, "albumId": 2, "songs": [
-            { "name": "Scarless Life",                          "duration": "04:52", "popularity": 12 },
-            { "name": "Breaking Down",                          "duration": "02:53", "popularity": 18 },
-            { "name": "Brown Acid",                             "duration": "03:45", "popularity": 23 },
-            { "name": "Maximum Headroom",                       "duration": "04:22", "popularity": 50 },
-            { "name": "Jubilation",                             "duration": "03:53", "popularity": 55 },
-            { "name": "New Orleans is Sinking",                 "duration": "04:06", "popularity": 12 },
-            { "name": "Yeti Nation",                            "duration": "04:10", "popularity": 80 },
-            { "name": "Ocean",                                  "duration": "04:30", "popularity": 5 },
-            { "name": "Novocain",                               "duration": "03:56", "popularity": 32 },
-            { "name": "The Code",                               "duration": "03:32", "popularity": 3 },
-            { "name": "Breath Easy",                            "duration": "03:13", "popularity": 4 },
-            { "name": "The Sailing Song",                       "duration": "03:18", "popularity": 12 }
-        ]},
-        { "id": 3, "albumId": 3, "songs": [
-            { "name": "Falling in Love",                        "duration": "04:52", "popularity": 1 },
-            { "name": "Falling in Love Too",                    "duration": "02:53", "popularity": 2 },
-            { "name": "Sunshine",                               "duration": "03:45", "popularity": 3 },
-            { "name": "Particle or Wave",                       "duration": "04:22", "popularity": 4 },
-            { "name": "Start to Pray",                          "duration": "03:53", "popularity": 5 },
-            { "name": "Sofa King Cool",                         "duration": "04:06", "popularity": 6 },
-            { "name": "You Oughta Know",                        "duration": "04:10", "popularity": 7 },
-            { "name": "No Time",                                "duration": "04:30", "popularity": 8 },
-            { "name": "Funky Roster",                           "duration": "03:56", "popularity": 9 },
-            { "name": "Drainpipe",                              "duration": "03:32", "popularity": 50 },
-            { "name": "Dog Day",                                "duration": "03:13", "popularity": 10 },
-            { "name": "I Am the Walrus",                        "duration": "03:18", "popularity": 11 }
-        ]},
-        { "id": 4, "albumId": 4, "songs": [
-            { "name": "Chinese Democracy",                          "duration": "04:52", "popularity": 90 },
-            { "name": "Shackler's Revenge",                         "duration": "02:53", "popularity": 60 },
-            { "name": "Better",                             "duration": "03:45", "popularity": 40 },
-            { "name": "Street of Dreams",                        "duration": "04:22", "popularity": 99 },
-            { "name": "If the World",                 "duration": "03:53", "popularity": 55 },
-            { "name": "There Was a Time",                    "duration": "04:06", "popularity": 80 },
-            { "name": "Catcher In The Rye",                          "duration": "04:10", "popularity": 45 },
-            { "name": "Scraped",                   "duration": "04:30", "popularity": 30 },
-            { "name": "Sorry",                           "duration": "03:56", "popularity": 50 },
-            { "name": "I.R.S",                          "duration": "03:32", "popularity": 90 },
-            { "name": "Madagascar",  "duration": "03:13", "popularity": 66 },
-            { "name": "This I Love",                            "duration": "03:18", "popularity": 100 }
-        ]},
-        { "id": 5, "albumId": 5, "songs": [
-            { "name": "Nightmare",                          "duration": "04:52", "popularity": 100 },
-            { "name": "Welcome to the Family",                         "duration": "02:53", "popularity": 100 },
-            { "name": "Danger Line",                             "duration": "03:45", "popularity": 100 },
-            { "name": "Buried Alive",                        "duration": "04:22", "popularity": 100 },
-            { "name": "Natural Born Killer",                 "duration": "03:53", "popularity": 100 },
-            { "name": "So Far Away",                    "duration": "04:06", "popularity": 100 },
-            { "name": "God Hates Us",                          "duration": "04:10", "popularity": 100 },
-            { "name": "Victim",                   "duration": "04:30", "popularity": 100 },
-            { "name": "Tonight The World Dies",                           "duration": "03:56", "popularity": 100 },
-            { "name": "Fiction",                          "duration": "03:32", "popularity": 100 },
-            { "name": "Save Me",  "duration": "03:13", "popularity": 100 }
-        ]},
-        { "id": 6, "albumId": 6, "songs": [
-            { "name": "Musthapha",                          "duration": "04:52", "popularity": 100 },
-            { "name": "Fat Bottomed Girls",                         "duration": "02:53", "popularity": 90 },
-            { "name": "Jealousy",                             "duration": "03:45", "popularity": 60 },
-            { "name": "Bicycle Race",                        "duration": "04:22", "popularity": 80 },
-            { "name": "If You Can't Beat Them",                 "duration": "03:53", "popularity": 50 },
-            { "name": "Let Me Entertain You",                    "duration": "04:06", "popularity": 40 },
-            { "name": "Dead On Time",                          "duration": "04:10", "popularity": 40 },
-            { "name": "In Only Seven Days",                   "duration": "04:30", "popularity": 30 },
-            { "name": "Dreamer's Ball",                           "duration": "03:56", "popularity": 60 },
-            { "name": "Fun It",                          "duration": "03:32", "popularity": 50 },
-            { "name": "Leaving Home Ain't Easy",  "duration": "03:13", "popularity": 30 },
-            { "name": "Don't Stop Me Now",                            "duration": "03:18", "popularity": 100 }
-        ]}
-    ]
-  }
+  "recommendations": [
+    {
+      "id": 1,
+      "title": "AC/DC - Razors Edge",
+      "coverImageUrl": "https://pre00.deviantart.net/dd35/th/pre/i/2013/351/2/b/ac_dc_thunderstruck_album_reimagined_by_jerle73-d6yb5kr.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Daze of Dawn - Yeti Nation",
+      "coverImageUrl": "https://f4.bcbits.com/img/a0165912094_10.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Daze of Dawn - Sofa King Cool",
+      "coverImageUrl": "https://gp1.wac.edgecastcdn.net/802892/http_public_production/photos/images/12959246/original/resize:600x601/crop:x0y110w772h578/aspect:1.0/hash:1463890374/1360593809_SOFA_KING_COOL_albumcover_scr.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Guns N' Roses - Chinese Democracy",
+      "coverImageUrl": "https://i.ebayimg.com/images/i/222640073527-0-1/s-l1000.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Avenged Sevenfolds - Nightmare",
+      "coverImageUrl": "https://lastfm-img2.akamaized.net/i/u/770x0/bd12ddaafc7344d3bf43f963f814cc90.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Queen - Jazz",
+      "coverImageUrl": "https://img.discogs.com/odXD-TEck6eotpKldAQec63UwcM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-613036-1362043328-6028.jpeg.jpg"
+    }
+  ],
+  "explore": [
+    {
+      "id": 1,
+      "genre": "Metal",
+      "backgroundColor": "#f8671a"
+    },
+    {
+      "id": 2,
+      "genre": "Rock",
+      "backgroundColor": "#ddd"
+    },
+    {
+      "id": 3,
+      "genre": "Indie",
+      "backgroundColor": "#fff"
+    },
+    {
+      "id": 4,
+      "genre": "Popular",
+      "backgroundColor": "#555"
+    },
+    {
+      "id": 5,
+      "genre": "Exclusivas",
+      "backgroundColor": "#aaa"
+    },
+    {
+      "id": 6,
+      "genre": "Folk",
+      "backgroundColor": "#d2d2d2"
+    }
+  ],
+  "album": [
+    {
+      "id": 1,
+      "title": "Razors Edge",
+      "coverImageUrl": "https://pre00.deviantart.net/dd35/th/pre/i/2013/351/2/b/ac_dc_thunderstruck_album_reimagined_by_jerle73-d6yb5kr.jpg",
+      "artist": "AC/DC"
+    },
+    {
+      "id": 2,
+      "title": "Daze of Dawn - Yeti Nation",
+      "coverImageUrl": "https://f4.bcbits.com/img/a0165912094_10.jpg",
+      "artist": "Daze of Down"
+    },
+    {
+      "id": 3,
+      "title": "Daze of Dawn - Sofa King Cool",
+      "coverImageUrl": "https://gp1.wac.edgecastcdn.net/802892/http_public_production/photos/images/12959246/original/resize:600x601/crop:x0y110w772h578/aspect:1.0/hash:1463890374/1360593809_SOFA_KING_COOL_albumcover_scr.jpg",
+      "artist": "Daze of Dawn"
+    },
+    {
+      "id": 4,
+      "title": "Guns N' Roses - Chinese Democracy",
+      "coverImageUrl": "https://i.ebayimg.com/images/i/222640073527-0-1/s-l1000.jpg",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "id": 5,
+      "title": "Avenged Sevenfolds - Nightmare",
+      "coverImageUrl": "https://lastfm-img2.akamaized.net/i/u/770x0/bd12ddaafc7344d3bf43f963f814cc90.jpg",
+      "artist": "Avenged Sevenfolds"
+    },
+    {
+      "id": 6,
+      "title": "Queen - Jazz",
+      "coverImageUrl": "https://img.discogs.com/odXD-TEck6eotpKldAQec63UwcM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-613036-1362043328-6028.jpeg.jpg",
+      "artist": "Queen"
+    }
+  ],
+  "songs": [
+    {
+      "data": [
+        {
+          "id": 1,
+          "albumId": 1,
+          "songs": [
+            {
+              "name": "Thunderstruck",
+              "duration": "04:52",
+              "popularity": 100
+            },
+            {
+              "name": "Fire Your Guns",
+              "duration": "02:53",
+              "popularity": 80
+            },
+            {
+              "name": "Moneytalks",
+              "duration": "03:45",
+              "popularity": 85
+            },
+            {
+              "name": "The Razors Edge",
+              "duration": "04:22",
+              "popularity": 78
+            },
+            {
+              "name": "Mistress for Christmas",
+              "duration": "03:53",
+              "popularity": 66
+            },
+            {
+              "name": "Rock your Heart Out",
+              "duration": "04:06",
+              "popularity": 77
+            },
+            {
+              "name": "Are You Ready",
+              "duration": "04:10",
+              "popularity": 90
+            },
+            {
+              "name": "Got you by the Balls",
+              "duration": "04:30",
+              "popularity": 85
+            },
+            {
+              "name": "Shot of Love",
+              "duration": "03:56",
+              "popularity": 80
+            },
+            {
+              "name": "Let's Make It",
+              "duration": "03:32",
+              "popularity": 50
+            },
+            {
+              "name": "Goodbye and Good Riddance to Bad Luck",
+              "duration": "03:13",
+              "popularity": 55
+            },
+            {
+              "name": "If You Dare",
+              "duration": "03:18",
+              "popularity": 60
+            },
+            {
+              "name": "Mi carro",
+              "duration": "10:00",
+              "popularity": "90"
+            }
+          ]
+        }
+      ],
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "pragma": "no-cache",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "expires": "-1"
+      },
+      "config": {
+        "transformRequest": {},
+        "transformResponse": {},
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "http://localhost:3000/songs?albumId=1"
+      },
+      "request": {},
+      "id": 1
+    },
+    {
+      "id": 2,
+      "albumId": 2,
+      "songs": [
+        {
+          "name": "Scarless Life",
+          "duration": "04:52",
+          "popularity": 12
+        },
+        {
+          "name": "Breaking Down",
+          "duration": "02:53",
+          "popularity": 18
+        },
+        {
+          "name": "Brown Acid",
+          "duration": "03:45",
+          "popularity": 23
+        },
+        {
+          "name": "Maximum Headroom",
+          "duration": "04:22",
+          "popularity": 50
+        },
+        {
+          "name": "Jubilation",
+          "duration": "03:53",
+          "popularity": 55
+        },
+        {
+          "name": "New Orleans is Sinking",
+          "duration": "04:06",
+          "popularity": 12
+        },
+        {
+          "name": "Yeti Nation",
+          "duration": "04:10",
+          "popularity": 80
+        },
+        {
+          "name": "Ocean",
+          "duration": "04:30",
+          "popularity": 5
+        },
+        {
+          "name": "Novocain",
+          "duration": "03:56",
+          "popularity": 32
+        },
+        {
+          "name": "The Code",
+          "duration": "03:32",
+          "popularity": 3
+        },
+        {
+          "name": "Breath Easy",
+          "duration": "03:13",
+          "popularity": 4
+        },
+        {
+          "name": "The Sailing Song",
+          "duration": "03:18",
+          "popularity": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "albumId": 3,
+      "songs": [
+        {
+          "name": "Falling in Love",
+          "duration": "04:52",
+          "popularity": 1
+        },
+        {
+          "name": "Falling in Love Too",
+          "duration": "02:53",
+          "popularity": 2
+        },
+        {
+          "name": "Sunshine",
+          "duration": "03:45",
+          "popularity": 3
+        },
+        {
+          "name": "Particle or Wave",
+          "duration": "04:22",
+          "popularity": 4
+        },
+        {
+          "name": "Start to Pray",
+          "duration": "03:53",
+          "popularity": 5
+        },
+        {
+          "name": "Sofa King Cool",
+          "duration": "04:06",
+          "popularity": 6
+        },
+        {
+          "name": "You Oughta Know",
+          "duration": "04:10",
+          "popularity": 7
+        },
+        {
+          "name": "No Time",
+          "duration": "04:30",
+          "popularity": 8
+        },
+        {
+          "name": "Funky Roster",
+          "duration": "03:56",
+          "popularity": 9
+        },
+        {
+          "name": "Drainpipe",
+          "duration": "03:32",
+          "popularity": 50
+        },
+        {
+          "name": "Dog Day",
+          "duration": "03:13",
+          "popularity": 10
+        },
+        {
+          "name": "I Am the Walrus",
+          "duration": "03:18",
+          "popularity": 11
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "albumId": 4,
+      "songs": [
+        {
+          "name": "Chinese Democracy",
+          "duration": "04:52",
+          "popularity": 90
+        },
+        {
+          "name": "Shackler's Revenge",
+          "duration": "02:53",
+          "popularity": 60
+        },
+        {
+          "name": "Better",
+          "duration": "03:45",
+          "popularity": 40
+        },
+        {
+          "name": "Street of Dreams",
+          "duration": "04:22",
+          "popularity": 99
+        },
+        {
+          "name": "If the World",
+          "duration": "03:53",
+          "popularity": 55
+        },
+        {
+          "name": "There Was a Time",
+          "duration": "04:06",
+          "popularity": 80
+        },
+        {
+          "name": "Catcher In The Rye",
+          "duration": "04:10",
+          "popularity": 45
+        },
+        {
+          "name": "Scraped",
+          "duration": "04:30",
+          "popularity": 30
+        },
+        {
+          "name": "Sorry",
+          "duration": "03:56",
+          "popularity": 50
+        },
+        {
+          "name": "I.R.S",
+          "duration": "03:32",
+          "popularity": 90
+        },
+        {
+          "name": "Madagascar",
+          "duration": "03:13",
+          "popularity": 66
+        },
+        {
+          "name": "This I Love",
+          "duration": "03:18",
+          "popularity": 100
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "albumId": 5,
+      "songs": [
+        {
+          "name": "Nightmare",
+          "duration": "04:52",
+          "popularity": 100
+        },
+        {
+          "name": "Welcome to the Family",
+          "duration": "02:53",
+          "popularity": 100
+        },
+        {
+          "name": "Danger Line",
+          "duration": "03:45",
+          "popularity": 100
+        },
+        {
+          "name": "Buried Alive",
+          "duration": "04:22",
+          "popularity": 100
+        },
+        {
+          "name": "Natural Born Killer",
+          "duration": "03:53",
+          "popularity": 100
+        },
+        {
+          "name": "So Far Away",
+          "duration": "04:06",
+          "popularity": 100
+        },
+        {
+          "name": "God Hates Us",
+          "duration": "04:10",
+          "popularity": 100
+        },
+        {
+          "name": "Victim",
+          "duration": "04:30",
+          "popularity": 100
+        },
+        {
+          "name": "Tonight The World Dies",
+          "duration": "03:56",
+          "popularity": 100
+        },
+        {
+          "name": "Fiction",
+          "duration": "03:32",
+          "popularity": 100
+        },
+        {
+          "name": "Save Me",
+          "duration": "03:13",
+          "popularity": 100
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "albumId": 6,
+      "songs": [
+        {
+          "name": "Musthapha",
+          "duration": "04:52",
+          "popularity": 100
+        },
+        {
+          "name": "Fat Bottomed Girls",
+          "duration": "02:53",
+          "popularity": 90
+        },
+        {
+          "name": "Jealousy",
+          "duration": "03:45",
+          "popularity": 60
+        },
+        {
+          "name": "Bicycle Race",
+          "duration": "04:22",
+          "popularity": 80
+        },
+        {
+          "name": "If You Can't Beat Them",
+          "duration": "03:53",
+          "popularity": 50
+        },
+        {
+          "name": "Let Me Entertain You",
+          "duration": "04:06",
+          "popularity": 40
+        },
+        {
+          "name": "Dead On Time",
+          "duration": "04:10",
+          "popularity": 40
+        },
+        {
+          "name": "In Only Seven Days",
+          "duration": "04:30",
+          "popularity": 30
+        },
+        {
+          "name": "Dreamer's Ball",
+          "duration": "03:56",
+          "popularity": 60
+        },
+        {
+          "name": "Fun It",
+          "duration": "03:32",
+          "popularity": 50
+        },
+        {
+          "name": "Leaving Home Ain't Easy",
+          "duration": "03:13",
+          "popularity": 30
+        },
+        {
+          "name": "Don't Stop Me Now",
+          "duration": "03:18",
+          "popularity": 100
+        }
+      ]
+    }
+  ]
+}

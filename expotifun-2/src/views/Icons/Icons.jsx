@@ -1,56 +1,78 @@
 import React, { Component } from "react";
-import { Grid, Row, Col } from "react-bootstrap";
-
-import Card from "../../components/Card/Card";
-import { iconsArray } from "../../variables/Variables.jsx";
+import {InputText} from 'primereact/inputtext';
+import {Button} from 'primereact/button';
+import AlbumService from "../../api/AlbumService";
 
 class Icons extends Component {
+  albumId = 0;
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      albumId: 0,
+      songTitle: "",
+      songDuration: "",
+      popularity: 0
+    }
+  }
+
+  save() {
+    console.log(this.state);
+    const albumService = new AlbumService();
+
+    albumService.addSongToAlbum(this.state.albumId,
+      this.state.songTitle,
+      this.state.songDuration,
+      this.state.popularity);
+  }
+
+
   render() {
     return (
-      <div className="content">
-        <Grid fluid>
-          <Row>
-            <Col md={12}>
-              <Card
-                title="202 Awesome Stroke Icons"
-                ctAllIcons
-                category={
-                  <span>
-                    Handcrafted by our friends from{" "}
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="http://themes-pixeden.com/font-demos/7-stroke/index.html"
-                    >
-                      Pixeden
-                    </a>
-                  </span>
-                }
-                content={
-                  <Row>
-                    {iconsArray.map((prop, key) => {
-                      return (
-                        <Col
-                          lg={2}
-                          md={3}
-                          sm={4}
-                          xs={6}
-                          className="font-icon-list"
-                          key={key}
-                        >
-                          <div className="font-icon-detail">
-                            <i className={prop} />
-                            <input type="text" defaultValue={prop} />
-                          </div>
-                        </Col>
-                      );
-                    })}
-                  </Row>
-                }
-              />
-            </Col>
-          </Row>
-        </Grid>
+      <div>
+        <div className="row">
+          <div className="col-md-4">
+            AlbumId
+          </div>
+
+          <div className="col-md-8">
+            <InputText value={this.albumId} onChange={(e) => this.albumId = e.target.value}  />
+            <InputText value={this.state.albumId} onChange={(e) => this.setState({albumId: e.target.value})} />
+          </div>
+        </div>
+        
+        <div className="row">
+          <div className="col-md-4">
+            Nombre canción
+          </div>
+
+          <div className="col-md-8">
+            <InputText value={this.state.songTitle} onChange={(e) => this.setState({songTitle: e.target.value})} />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-4">
+            Duración
+          </div>
+
+          <div className="col-md-8">
+            <InputText value={this.state.songDuration} onChange={(e) => this.setState({songDuration: e.target.value})} />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-4">
+            Popularidad
+          </div>
+
+          <div className="col-md-8">
+            <InputText value={this.state.popularity} onChange={(e) => this.setState({popularity: e.target.value})} />
+          </div>
+        </div>
+
+        <Button label="Save" onClick={() => this.save()} />
       </div>
     );
   }
