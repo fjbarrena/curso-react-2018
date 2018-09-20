@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import RecommendationsService from '../../api/RecommendationsService';
 import ExploreService from '../../api/ExploreService';
+import AuthService from '../../api/Auth';
 
 class ExpotifunDashboardView extends Component {
     constructor(props) {
@@ -36,6 +37,11 @@ class ExpotifunDashboardView extends Component {
                 this.setState({
                     exploreItems: result.data
                 })
+            },
+            (error) => {
+                this.setState({
+                    exploreItems: []
+                })
             }
         );
 
@@ -46,11 +52,24 @@ class ExpotifunDashboardView extends Component {
                     currentRecommendation: result.data[0],
                     activeIndex: 0
                 })
+            },
+            (error) => {
+                this.setState({
+                    recommendations: [],
+                    currentRecommendation: {},
+                    activeIndex: 0
+                })
             }
         )
     }
 
     componentWillMount() {
+        const authService = new AuthService();
+
+        authService.login("fjbarrena@iti.es", "n0tiene").then(
+            (success) => { console.log(success) }
+        );
+
         this.cargaDeDatosAsincrona();    
 
         setInterval(() => {
@@ -72,11 +91,7 @@ class ExpotifunDashboardView extends Component {
     render() {
         return (
             <div>
-                <div>
-                    <img style={{width: '300px'}}  
-                        src={this.state.currentRecommendation.coverImageUrl} />
-                    <h6>{this.state.currentRecommendation.title}</h6>
-                </div>
+                
 
                 <div>
                     <h2>Explorar</h2>
