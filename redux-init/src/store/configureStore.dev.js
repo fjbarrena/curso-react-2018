@@ -6,6 +6,7 @@ import createLogger from 'redux-logger';
 import { persistState } from 'redux-devtools';
 import rootReducer from '../reducers';
 import DevTools from '../containers/DevTools';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 const logger = createLogger({
   level: 'info',
@@ -18,9 +19,8 @@ export default function configureStore(initialState) {
   const store = createStore(
     rootReducer,
     initialState,
-    compose(
+    composeWithDevTools(
       applyMiddleware(thunk, router, logger),
-      DevTools.instrument(),
       persistState(
         window.location.href.match(
           /[?&]debug_session=([^&]+)\b/
